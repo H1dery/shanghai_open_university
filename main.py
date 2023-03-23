@@ -11,8 +11,8 @@ import json
 # linux 解压到 /usr/local/bin ，chmod a+x /usr/local/bin/geckodriver
 # windows 下载好firefox驱动，添加环境变量
 
-username = "20232310320067"
-password = "Dajiaobu323."
+username = ""
+password = ""
 
 
 
