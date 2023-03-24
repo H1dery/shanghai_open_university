@@ -16,7 +16,6 @@ password = ""
 
 
 
-# path_to_chromedriver = "/Users/markjayden/Downloadswww/chromedriver_mac64/chromedriver"
 options = webdriver.FirefoxOptions()
 options = Options()
 options.set_preference("general.useragent.override","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
@@ -72,7 +71,6 @@ for kk in get_kecheng_name():
 			#print(a.get('href'))
 		
 		
-#shou_url = "https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=sa0eay2vi4tktcncyksqjq&minorcourseopenid=sa0eay2vi4tktcncyksqjq"
 def t2s(t):
 	h,m,s = t.strip().split(":")
 	return int(h) * 3600 + int(m) * 60 + int(s)
