@@ -99,7 +99,7 @@ def run_video(url_list):
 		#print(e)
 		if "doc_box" in str(e):
 			print("判断为不是视频，10秒后下一个")
-			time.sleep(5)
+			time.sleep(10)
 			pass
 
 for url_list in shou_url_list:
