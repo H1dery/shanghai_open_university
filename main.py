@@ -57,7 +57,7 @@ for kk in get_kecheng_name():
 	content = selector.xpath('//div[@class="sh-res-h"]')
 	for div in content:
 		img = div.find('img')
-		if img is not None and img.get('title') == '未看':
+		if img is not None and img.get('title') == '未看' or img.get('title') == '未完成'::
 			a = div.find('a')
 			if a is not None:
 				#print(a.get('title'),"未看")
